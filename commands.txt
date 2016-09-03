@@ -1,0 +1,62 @@
+Saranda@DESKTOP-CV1ILR3 MINGW64 /
+$ cd
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~
+$ cd Desktop/
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop (master)
+$ mkdir basic_repo
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop (master)
+$ cd basic_repo
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ touch index.html
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git init
+Initialized empty Git repository in C:/Users/Saranda/Desktop/basic_repo/.git/
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git add .
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git commit -m ' added index.html'
+[master (root-commit) 99836c2]  added index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git add .
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git commit -m 'added a <p> tag !'
+[master e6eeb3b] added a <p> tag !
+ 1 file changed, 9 insertions(+)
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git remote add origin https://github.com/SarandaSadiku/basic_repo.git
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ git push origin master
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 506 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/SarandaSadiku/basic_repo.git
+ * [new branch]      master -> master
+
+Saranda@DESKTOP-CV1ILR3 MINGW64 ~/Desktop/basic_repo (master)
+$ touch commands.txt
